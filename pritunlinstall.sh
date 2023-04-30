@@ -73,8 +73,8 @@ cd /tmp
 
 #Downgrade Pritunl
 figlet "Downgrade Pritunl to 1.30.3108.50"
-wget https://github.com/pritunl/pritunl/releases/download/1.30.3108.50/pritunl_1.30.3108.50-0ubuntu1.focal_amd64.deb
-dpkg -i pritunl_1.30.3108.50-0ubuntu1.focal_amd64.deb
+wget https://github.com/pritunl/pritunl/releases/download/1.32.3457.59/pritunl_1.32.3457.59-0ubuntu1.focal_amd64.deb
+dpkg -i pritunl_1.32.3457.59-0ubuntu1.focal_amd64.deb
 service pritunl restart
 #change ui
 figlet "update web interface"
